@@ -23,7 +23,7 @@ class ParticipantController extends Controller
     {
         $request->validate([
             'nombre' => 'required|alpha',
-            'apellido' => 'required|alpha',
+            'apellido' => 'required',
             'cedula' => 'required|numeric',
             'departamento' => 'required|string',
             'ciudad' => 'required|string',
